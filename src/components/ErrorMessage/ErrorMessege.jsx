@@ -1,7 +1,9 @@
-import React from "react";
-
-const ErrorMessege = () => {
-  return <div></div>;
+const ErrorMessage = () => {
+  return (
+    <div>
+      <h2>Not today or try again!</h2>
+    </div>
+  );
 };
 
-export default ErrorMessege;
+export default ErrorMessage;
